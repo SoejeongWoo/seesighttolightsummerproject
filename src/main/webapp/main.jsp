@@ -155,7 +155,7 @@
 
 <div class="news_box">
     <div class="menu_text"> News
-        <img class="hover_img" alt="news" src="images/news_seesun.png">
+        <img class="hover_img" alt="news" src="images/news.png">
     </div>
 </div>
 
