@@ -1,0 +1,353 @@
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #0C090A;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  position: relative;
+}
+
+.logo img {
+  height: 90px;
+}
+
+.menu-container {
+  position: relative;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: fixed;
+  right: 50px;
+}
+
+.menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+#menu {
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+}
+
+
+/*
+.title {
+  text-align: center;
+  font-family: var(--Title-Large-Font, Roboto);
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 112px;
+  width: 100%;
+  margin: 3vw 0 1vw 0;
+}*/
+
+.dotted-line {
+  border-bottom: 2px dotted white;
+  width: 75%;
+  margin: 3vw auto 2vw auto;
+  /* 중앙 정렬을 위해 추가 */
+}
+
+.hidden-line {
+  border-bottom: 2px dotted black;
+  width: 75%;
+  margin: 3vw auto 2vw auto;
+
+}
+
+
+
+
+
+
+.placeholder-image {
+  width: 18vw;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3vw;
+  margin-top: 5vw;
+  flex-wrap: wrap;
+}
+
+.contents1 {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.5px;
+  padding: 20px;
+}
+
+.contents2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.5px;
+  margin-top: 7vw;
+
+}
+
+.contents3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.5px;
+  margin-top: 7vw;
+
+}
+
+.contents4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.5px;
+  margin-top: 7vw;
+
+}
+
+.title {
+  font-size: 3vw;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 3vw;
+}
+
+.text-medium {
+  font-size: 2vw;
+  color: #E2DCBF;
+}
+
+.text-small {
+  font-size: 1vw;
+}
+
+.centered-text {
+  text-align: center;
+
+}
+
+.left-aligned-text {
+  text-align: left;
+
+}
+
+.activity-list {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+.activity-list li {
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
+  display: table;
+  width: 100%;
+}
+
+.activity-list .category {
+  color: deepskyblue;
+  display: table-cell;
+  width: 15%;
+  font-weight: bolder;
+}
+
+.activity-list .description {
+  display: table-cell;
+}
+
+
+.button {
+  position: fixed;
+  bottom: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button1 {
+  left: 10px;
+}
+
+.button2 {
+  left: 120px;
+}
+
+
+
+.cont3 {
+  display: flex;
+  color: white;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.left-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 22vw;
+
+}
+
+.left-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.right-item li {
+  margin-bottom: 2vw;
+  font-size: 1.2vw;
+  
+}
+
+.text-small2{
+  font-size: 2vw; 
+  color: white;
+  margin-top: 1.5vw
+}
+
+.dotted-line-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  padding-right: 10px; 
+  font-size: 4vw;
+  color: white;
+}
+
+.dot-line {
+  flex-grow: 1;
+  border-bottom: 0.5vw dashed white; /* 점선 스타일 설정 */
+}
+
+.circle-container {
+  width: 10vw; /* 원의 크기를 지정하세요 */
+  height: 10vw; /* 원의 크기를 지정하세요 */
+  background-color: white; /* 원의 배경 색상 */
+  border-radius: 50%; /* 원 모양으로 만듭니다 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-container img {
+  max-width: 80%; /* 이미지 크기를 원 안에 적절히 맞춥니다 */
+  max-height: 80%;
+}
+
+.scroll-buttons {
+  position: fixed;
+  right: 2vw;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.scroll-buttons button {
+  width: 6vw;
+  height: 3.4vw;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgray;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1vw;
+}
+
+.scroll-buttons button.active {
+  background-color: deepskyblue;
+  color: white;
+}
+
+.box {
+  width: 15vw;
+  height: 18vw;
+  background-color: #1E1E1E;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  height: 75%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-container {
+  height: 25%;
+  font-size: 0.8vw;
+  box-sizing: border-box;
+  text-align: left; /* 텍스트 중앙 정렬 */
+  color: white;

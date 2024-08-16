@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>시선 홈페이지</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="logo.png" alt="Logo" style="width: 4vw; height: 3vw;"></a>
+    </div>
+    <div class="menu-container">
+      <div class="menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <nav id="menu" class="hidden">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="members.html">Members</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="contents1" id="top">
+    <h1 class="title">SEE 善</h1>
+    <div class="subtitle">선한 곳을 바라보다</div>
+    <div class="text-medium">시선은 우리 사회의 소외된 이웃을 바라보고</div>
+    <div class="text-medium">그들의 필요를 채워주는 IT기술을 연구하는 학회입니다.</div>
+    <div class="dotted-line"></div>
+    <div class="text-small">“ 내가 진실로 너희에게 이르노니, 너희가 여기 내 형제 중에 지극히 </div>
+    <div class="text-small">작은 자 하나에게 한 것이 곧 나에게 한 것이니라. “</div>
+    <div class="dotted-line"></div>
+
+    <div class="container">
+      <div class="box">
+        <img class="placeholder-image" src="#" alt="Placeholder Image">
+      </div>
+      <div class="box">
+        <img class="placeholder-image" src="#" alt="Placeholder Image">
+      </div>
+      <div class="box">
+        <img class="placeholder-image" src="#" alt="Placeholder Image">
+      </div>
+    </div>
+    <div class="hidden-line"></div>
+  </div>
+  <div class="contents2">
+    <div class="subtitle centered-text" style="color: #E2DCBF; margin-bottom: 2vw;">학회활동</div>
+    <ul class="activity-list left-aligned-text">
+      <li>
+        <div class="category">프로젝트</div>
+        <div class="description">| 소외된 이웃을 위한 프로젝트 개발 및 프로그램의 유지보수</div>
+      </li>
+      <li>
+        <div class="category">경진대회</div>
+        <div class="description">| IT/IOT 분야의 경진대회 참여</div>
+      </li>
+      <li>
+        <div class="category">학회/논문</div>
+        <div class="description">| 연구 기술에 관한 학회 참가 및 논문 작성, 발표</div>
+      </li>
+      <li>
+        <div class="category">실무/인턴</div>
+        <div class="description">| DOT, AUD, TEKTON Space와 같은 스타트업에 정직원, 인턴 근무</div>
+      </li>
+      <li>
+        <div class="category">수상실적</div>
+        <div class="description">| 스마트시티 서비스 아이디어 경진대회 스마트 공공서비스 아이디어 부문 우수상<br>
+          2017 대학특성화(CK) 학부생 연구지원사업 학술대회 은상<br>
+          제 10회 창의설계 경진 대회 청울림 팀 동상 수상<br>
+          KT 하자프로젝트 우수상 수상(SEER)</div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="contents3">
+    <div class="subtitle centered-text" style="color: #E2DCBF; margin-bottom: 2vw;">학회 프로젝트</div>
+    <div class="cont3">
+
+      <!-- 왼쪽 요소: 사진과 텍스트 -->
+      <div class="left-item">
+        <!-- 원 모양 컨테이너 -->
+        <div class="circle-container">
+          <img src="tool.png" alt="사진">
+        </div>
+        <p style="color: #E2DCBF; font-size: 2.2vw;">유지보수</p>
+      </div>
+
+      <!-- 오른쪽 요소: 세로 리스트 -->
+      <div class="right-item" style="margin-right: 25vw;">
+        <ul>
+          <li>전맹자와 저시력자를 위한 신문 어플리케이션</li>
+          <li>기능성 게임을 이용한 바리스타 직무 교육 시스템</li>
+          <li>청각장애인을 위한 소리신호 감지 어플리케이션</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="cont3">
+      <!-- 왼쪽 요소: 사진과 텍스트 -->
+      <div class="left-item">
+        <!-- 원 모양 컨테이너 -->
+        <div class="circle-container">
+          <img src="developing.png" alt="사진">
+        </div>
+        <p style="color: #E2DCBF; font-size: 2.2vw;">개발중</p>
+      </div>
+
+      <!-- 오른쪽 요소: 세로 리스트 -->
+      <div class="right-item" style="margin-right: 9vw;">
+        <ul>
+          <li><strong style="color: deepskyblue;">저시력난독노인복지팀 |</strong> 웹페이지 뷰어 개선 프로그램</li>
+          <li><strong style="color: deepskyblue;">하체 장애인 및 노인팀 |</strong> 하체장애인 및 노인을 위한 홈트레이닝 운동 어플리케이션</li>
+          <li><strong style="color:deepskyblue;">시각장애인팀 |</strong> 시각장애인을 위한 음성기반 SNS 어플리케이션</li>
+          <li><strong style="color: deepskyblue;">청각장애인팀 |</strong> 난청인을 위한 노래 훈련 프로그램</li>
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+  <div class="contents4">
+    <div class="subtitle centered-text" style="color: #E2DCBF;">
+      학회 지원자격
+    </div>
+    <div class="text-small2">소외된 이웃을 위해 전공을 활용하고 싶은 분</div>
+    <div class="text-small2">2학기 연속 학회 활동 참여 가능한 분</div>
+    <div class="text-small2">방학 중 프로젝트에 참여 가능한 분</div>
+    <div class="text-small2">학회 활동에 열정 가진 분</div>
+  </div>
+  <div style="margin-bottom: 18vw;"></div>
+  <div class="scroll-buttons">
+    <button id="scroll-to-top" onclick="scrollToSection('top')">개요</button>
+    <button id="scroll-to-activity" onclick="scrollToSection('contents2')">학회 활동</button>
+    <button id="scroll-to-project" onclick="scrollToSection('contents3')">학회 프로젝트</button>
+    <button id="scroll-to-qualification" onclick="scrollToSection('contents4')">학회 지원자격</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
